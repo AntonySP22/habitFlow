@@ -1,19 +1,69 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
-
-export default {
+export const Colors = {
   light: {
-    text: '#000',
-    background: '#fff',
-    tint: tintColorLight,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorLight,
+    text: '#1F2937',
+    textSecondary: '#6B7280',
+    textMuted: '#9CA3AF',
+    background: '#F9FAFB',
+    backgroundSecondary: '#FFFFFF',
+    card: '#FFFFFF',
+    cardBorder: '#E5E7EB',
+    tint: '#6366F1',
+    tintLight: '#EEF2FF',
+    tabIconDefault: '#9CA3AF',
+    tabIconSelected: '#6366F1',
+    success: '#10B981',
+    successLight: '#D1FAE5',
+    warning: '#F59E0B',
+    warningLight: '#FEF3C7',
+    danger: '#EF4444',
+    dangerLight: '#FEE2E2',
+    gradient: ['#6366F1', '#8B5CF6'],
+    shadow: 'rgba(0, 0, 0, 0.08)',
+    overlay: 'rgba(0, 0, 0, 0.5)',
   },
   dark: {
-    text: '#fff',
-    background: '#000',
-    tint: tintColorDark,
-    tabIconDefault: '#ccc',
-    tabIconSelected: tintColorDark,
+    text: '#F9FAFB',
+    textSecondary: '#D1D5DB',
+    textMuted: '#9CA3AF',
+    background: '#0F172A',
+    backgroundSecondary: '#1E293B',
+    card: '#1E293B',
+    cardBorder: '#334155',
+    tint: '#818CF8',
+    tintLight: '#312E81',
+    tabIconDefault: '#64748B',
+    tabIconSelected: '#818CF8',
+    success: '#34D399',
+    successLight: '#064E3B',
+    warning: '#FBBF24',
+    warningLight: '#78350F',
+    danger: '#F87171',
+    dangerLight: '#7F1D1D',
+    gradient: ['#818CF8', '#A78BFA'],
+    shadow: 'rgba(0, 0, 0, 0.3)',
+    overlay: 'rgba(0, 0, 0, 0.7)',
   },
 };
+
+export const CategoryColors: Record<string, string> = {
+  'Salud': '#10B981',
+  'Académico': '#6366F1',
+  'Físico': '#F59E0B',
+  'Personal': '#EC4899',
+  'Trabajo': '#3B82F6',
+};
+
+export const HabitColors = [
+  '#6366F1',
+  '#8B5CF6',
+  '#EC4899',
+  '#EF4444',
+  '#F59E0B',
+  '#10B981',
+  '#14B8A6',
+  '#3B82F6',
+  '#06B6D4',
+  '#84CC16',
+];
+
+export default Colors;

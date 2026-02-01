@@ -1,0 +1,30 @@
+export const DEFAULT_CATEGORIES = [
+    { name: 'Salud', color: '#10B981', icon: 'heart' },
+    { name: 'Académico', color: '#6366F1', icon: 'school' },
+    { name: 'Físico', color: '#F59E0B', icon: 'fitness' },
+    { name: 'Personal', color: '#EC4899', icon: 'person' },
+    { name: 'Trabajo', color: '#3B82F6', icon: 'briefcase' },
+];
+
+export const HABIT_ICONS = [
+    'checkmark-circle',
+    'book',
+    'water',
+    'bed',
+    'walk',
+    'bicycle',
+    'barbell',
+    'heart',
+    'leaf',
+    'flame',
+    'moon',
+    'sunny',
+    'nutrition',
+    'pencil',
+    'musical-notes',
+    'game-controller',
+    'laptop',
+    'call',
+    'chatbubbles',
+    'people',
+];
