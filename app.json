@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "habitFlow",
+    "name": "HabitFlow",
     "slug": "habitFlow",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,18 +11,19 @@
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#5CB85C"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.antonysp22.habitflow"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#5CB85C"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.antonysp22.habitflow"
     },
     "web": {
       "bundler": "metro",
@@ -30,10 +31,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0d601e36-fac6-4c2a-8185-0abe9fceba2d"
+      }
+    },
+    "owner": "antontsp22"
   }
 }
